@@ -96,7 +96,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 |PmliPEMG | same as CIRNN| An ensemble deep learning model based on multi-level information enhancement (CNN and LSTM with attention mechanism) and greedy fuzzy decision for plant lncRNA-miRNA interaction prediction|https://github.com/kangzhai/PmliPEMG |
 |Kang’s method |same as CIRNN |An adaptively prunes the base models based on dual-path parallel ensemble method to meet the challenge of cross-species prediction. it uses PmliPEMG as the base model |https://github.com/kangzhai/DPEP |
 |MD-MLI | same as CIRNN|A hierarchical deep learning framework that integrates capsule network, an IndRNN with attention mechanism and Bi-LSTM |NA |
-|preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |[NA](https://github.com/BioSequenceAnalysis/preMLI) |
+|preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |(https://github.com/BioSequenceAnalysis/preMLI) |
 
 ## Welcome to contribute
 ```
