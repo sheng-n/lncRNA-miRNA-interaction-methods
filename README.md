@@ -6,18 +6,12 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 
 ## Table of Contents
 * [Overview](#Overview) 
-* [Data resources](#Data-resources) 
-  - [miRNA-disease association data resources](#miRNA-disease-association-data-resources)
-  - [miRNA-related data resourcess](#miRNA-related-data-resources)
-  - [Disease-related data resources](#Disease-related-data-resources)
-* [Deep learning models for predicting MDAs](#Deep-learning-models-for-predicting-MDAs) 
-  - [Autoencoder](#Autoencoder)
-  - [Multi-layer perceptron](#Multi-layer-perceptron)
-  - [Convolutional neural network](#Convolutional-neural-network)
-  - [Other deep learning methonds](#Other-deep-learning-methonds)
-* [Graph neural network-based methods](#Graph-neural-network-based-methods) 
-  - [Graph feature extraction](#Graph-feature-extraction)
-  - [Graph matrix completion](#Graph-matrix-completion)
+* [ Databases and tools](#Databases-and-tools) 
+* [Computational methods for lncRNA-miRNA interaction prediction](#Computational-methods-for-lncRNA-miRNA-interaction-prediction) 
+  - [Network-based methods](#Network-based-methods)
+  - [Sequence-based methods](#Sequence-based-methods)
+* [A Summary of Methodology Details for predicting lncRNA-miRNA interactions](#A-Summary-of-Methodology-Details-for-predicting-lncRNA-miRNA-interactions) 
+* [ Welcome to contribute](#Welcome-to-contribute) 
 
 ## Overview
 * We are presented databases and tools related to animal and plant lncRNA-miRNA interactions prediction, covering lncRNA-miRNA interactions data, lncRNA- and miRNA-related data (such as expression profiles, sequences, and functions). These databases are widely used in computational methods and are still being updated and accessed.. 
@@ -28,7 +22,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 
 Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction.
 
-## Data resources
+## Databases and tools
 | Database  |Latest version |Description  | URL | 
 |:------------------:|:-----:|:--------------: |:-----:|
 |lncRNASNP | lncRNASNP2 | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
@@ -43,107 +37,77 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 |RNAhybrid | RNAhybrid 2.1.2|It is a tool for finding the minimum free energy hybridization of a long and a short RNA, and is primarily meant as a means for microRNA target prediction |https://bibiserv.cebitec.uni-bielefeld.de/rnahybrid |
 | psRNATarget|psRNATarget (v2) |It is a plant small RNA target analysis server, and used as the miRNA-lncRNA interaction prediction tool |https://www.zhaolab.org/psRNATarget/ |
 
-## Deep learning models for predicting MDAs
-### Autoencoder
-1. **[DeepMDA]** Fu L, Peng Q. A deep ensemble model to predict miRNA-disease association, Scientific Reports 2017;7(1):14482. [**[Download]**](https://www.nature.com/articles/s41598-017-15235-6 "Click") [**[Code]**](https://github.com/sperfu/DeepMDA "Click") 
+## Computational methods for lncRNA-miRNA interaction prediction
+### Network-based methods
+1. **[EPLMI]** Huang Y-A, Chan KCC, You Z-H. Constructing prediction models from expression profiles for large scale lncRNA–miRNA interaction profiling, Bioinformatics 2017;34(5):812-819. [**[Download]**](https://academic.oup.com/bioinformatics/article/34/5/812/4562502 "Click") [**[Code]**](https://github.com/TYLH/EPLMI "Click") 
 
-2. **[DRMLDA]** Chen X, Gong Y, Zhang D-H et al. DRMDA: deep representations-based miRNA–disease association prediction, Journal of Cellular and Molecular Medicine 2018;22(1):472-485. [**[Download]**](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.13336 "Click")
+2. **[GCLMI]** Huang Y-A, Huang Z-A, You Z-H et al. Predicting lncRNA-miRNA Interaction via Graph Convolution Auto-Encoder, Frontiers in genetics 2019;10. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2019.00758/full "Click")
 
-3. **[MLMDA]** Zheng K, You Z-H, Wang L et al. MLMDA: a machine learning approach to predict and validate MicroRNA–disease associations by integrating of heterogenous information sources, Journal of Translational Medicine 2019;17(1):260. [**[Download]**](https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-019-2009-x "Click") 
+3. **[LNRLMI]** Wong L, Huang Y-A, You Z-H et al. LNRLMI: Linear neighbour representation for predicting lncRNA-miRNA interactions, Journal of Cellular and Molecular Medicine 2020;24(1):79-87. [**[Download]**](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.14583 "Click") 
 
-4. **[DFELMDA]** Liu W, Lin H, Huang L et al. Identification of miRNA–disease associations via deep forest ensemble learning based on autoencoder, Briefings in Bioinformatics 2022;23(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/3/bbac104/6553934?login=false "Click") [**[Code]**](https://github.com/Zj-Teng/DFELMDA "Click") 
+4. **[LMNLMI]** Hu P, Huang YA, Chan KCC et al. Learning Multimodal Networks From Heterogeneous Data for Prediction of lncRNA–miRNA Interactions, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020;17(5):1516-1524. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8918443 "Click")
 
-5. **[MDA-CF]** Dai Q, Chu Y, Li Z et al. MDA-CF: Predicting MiRNA-Disease associations based on a cascade forest model by fusing multi-source information, Computers in Biology and Medicine 2021;136:104706. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S001048252100500X "Click") [**[Code]**](https://github.com/a1622108/MDA-CF "Click") 
+5. **[GEEL-PI, GEEL-FI]** Zhao C, Qiu Y, Zhou S et al. Graph embedding ensemble methods based on the heterogeneous network for lncRNA-miRNA interaction prediction, BMC Genomics 2020;21(13):867. [**[Download]**](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07238-x "Click") 
 
-6. **[PMDFI]** Tang M, Liu C, Liu D et al. PMDFI: Predicting miRNA–Disease Associations Based on High-Order Feature Interaction, Frontiers in genetics 2021;12. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2021.656107/full "Click") 
+6. **[GNMFLMI]** Wang MN, You ZH, Li LP et al. GNMFLMI: Graph Regularized Nonnegative Matrix Factorization for Predicting LncRNA-MiRNA Interactions, IEEE Access 2020;8:37578-37588. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9001074 "Click") [**[Code]**](https://github.com/haichengyi/GNMFLMI "Click") 
 
-7. **[MSCNE]** Han G, Kuang Z, Deng L. MSCNE:Predict miRNA-Disease Associations Using Neural Network based on Multi-source Biological Information, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/document/9519511 "Click")
+7. **[LMFNRLMI]** Liu H, Ren G, Chen H et al. Predicting lncRNA–miRNA interactions based on logistic matrix factorization with neighborhood regularized, Knowledge-Based Systems 2020;191:105261. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0950705119305684 "Click") 
 
-8. **[SMALF]** Liu D, Huang Y, Nie W et al. SMALF: miRNA-disease associations prediction based on stacked autoencoder and XGBoost, BMC Bioinformatics 2021;22(1):219. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04135-2 "Click") [**[Code]**](https://github.com/dayunliu/SMALF "Click") 
+8. **[LMI-DForest]** Wang W, Guan X, Khan MT et al. LMI-DForest: A deep forest model towards the prediction of lncRNA-miRNA interactions, Computational Biology and Chemistry 2020;89:107406. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S1476927120308021 "Click") 
 
-9. **[MDA-CNN]** Peng J, Hui W, Li Q et al. A learning-based framework for miRNA-disease association identification using neural networks, Bioinformatics 2019;35(21):4364-4371. [**[Download]**](https://academic.oup.com/bioinformatics/article/35/21/4364/5448859?login=false "Click") [**[Code]**](https://github.com/
-Issingjessica/MDA-CNN "Click") 
+9. **[SNFHGILMI]** Fan Y, Cui J, Zhu Q. Heterogeneous graph inference based on similarity network fusion for predicting lncRNA–miRNA interaction, RSC advances 2020;10(20):11634-11642. [**[Download]**](https://pubs.rsc.org/en/content/articlehtml/2020/ra/c9ra11043g "Click") [**[Code]**](https://github.com/cj-DaSE/SNFHGILMI-master "Click") 
 
-10. **[AEMDA]** Ji C, Gao Z, Ma X et al. AEMDA: inferring miRNA–disease associations based on deep autoencoder, Bioinformatics 2020;37(1):66-72. [**[Download]**](https://github.com/CunmeiJi/AEMDA "Click") [**[Code]**](https://github.com/CSUBioGroup/SDLDA "Click") 
+10. **[LMI-INGI]** Zhang L, Liu T, Chen H et al. Predicting lncRNA–miRNA interactions based on interactome network and graphlet interaction, Genomics 2021;113(3):874-880. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0888754321000537 "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/LMI-INGI "Click") 
 
-11. **[iMDA-BN]** Zheng K, You Z-H, Wang L et al. iMDA-BN: Identification of miRNA-disease associations based on the biological network and graph embedding algorithm, Computational and Structural Biotechnology Journal 2020;18:2391-2400. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2001037020303767 "Click")
+11. **[NDALMA]** Zhang L, Yang P, Feng H et al. Using Network Distance Analysis to Predict lncRNA–miRNA Interactions, Interdisciplinary Sciences: Computational Life Sciences 2021;13(3):535-545. [**[Download]**](https://link.springer.com/article/10.1007/s12539-021-00458-z "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/NDALMA "Click") 
 
-12. **[DANE-MDA]** 	Ji B-Y, You Z-H, Wang Y et al. DANE-MDA: Predicting microRNA-disease associations via deep attributed network embedding, iScience 2021;24(6):102455. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2589004221004235 "Click") [**[Code]**](https://github.com/jiboya123/DANE-MDA "Click") 
+### Sequence-based methods
+1. **[LncMirNet]** Yang S, Wang Y, Lin Y et al. LncMirNet: Predicting LncRNA–miRNA Interaction Based on Deep Learning of Ribonucleic Acid Sequences, Molecules 2020;25(19):4372. [**[Download]**](https://www.mdpi.com/1420-3049/25/19/4372 "Click") [**[Code]**](https://github.com/abcair/LncMirNet "Click") 
 
-13. **[DBNMDA]** Chen X, Li T-H, Zhao Y et al. Deep-belief network for predicting potential miRNA-disease associations, Briefings in Bioinformatics 2020;22(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/3/bbaa186/5898648?login=false "Click") 
+2. **[CIRNN]** Zhang P, Meng J, Luan Y et al. Plant miRNA–lncRNA Interaction Prediction with the Ensemble of CNN and IndRNN, Interdisciplinary Sciences: Computational Life Sciences 2020;12(1):82-89. [**[Download]**](https://link.springer.com/article/10.1007/s12539-019-00351-w "Click") 
 
-14. **[SAEMD]** Wang C-C, Li T-H, Huang L et al. Prediction of potential miRNA–disease associations based on stacked autoencoder, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/2/bbac021/6529883?login=false "Click") [**[Code]**](https://github.com/xpnbs/SAEMDA "Click") 
+3. **[PmliPred]** Kang Q, Meng J, Cui J et al. PmliPred: a method based on hybrid model and fuzzy decision for plant miRNA–lncRNA interaction prediction, Bioinformatics 2020;36(10):2986-2992. [**[Download]**](https://academic.oup.com/bioinformatics/article/36/10/2986/5728636?login=false "Click") [**[Code]**](https://github.com/kangzhai/PmliPred "Click") 
 
-15. **[DBMDA]** Zheng K, You Z-H, Wang L et al. DBMDA: A Unified Embedding for Sequence-Based miRNA Similarity Measure with Applications to Predict and Validate miRNA-Disease Associations, Molecular Therapy - Nucleic Acids 2020;19:602-611. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S2162253119304056 "Click") 
+4. **[PmliPEMG]** Kang Q, Meng J, Shi W et al. Ensemble Deep Learning Based on Multi-level Information Enhancement and Greedy Fuzzy Decision for Plant miRNA–lncRNA Interaction Prediction, Interdisciplinary Sciences: Computational Life Sciences 2021;13(4):603-614. [**[Download]**](https://link.springer.com/article/10.1007/s12539-021-00434-7 "Click") [**[Code]**](https://github.com/kangzhai/PmliPEMG "Click")
 
-16. **[VAEMDA]** Zhang L, Chen X, Yin J. Prediction of Potential miRNA–Disease Associations Through a Novel Unsupervised Deep Learning Framework with Variational Autoencoder, Cells 2019;8(9):1040. [**[Download]**](https://www.mdpi.com/2073-4409/8/9/1040 "Click") 
+5. **[Kang’s method]** Kang Q, Meng J, Su C et al. Mining plant endogenous target mimics from miRNA–lncRNA interactions based on dual-path parallel ensemble pruning method, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab440/6399881?login=false "Click") [**[Code]**](https://github.com/kangzhai/DPEP "Click")
 
-17. **[SVAEMDA]** Ji C, Wang Y, Gao Z et al. A Semi-Supervised Learning Method for MiRNA-Disease Association Prediction Based on Variational Autoencoder, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022;19(4):2049-2059. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9381658 "Click") 
+6. **[MD-MLI]** Song J, Tian S, Yu L et al. MD-MLI: Prediction of miRNA–lncRNA Interaction by Using Multiple Features and Hierarchical Deep Learning, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2022;19(3):1724-1733. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9246277 "Click") 
 
-### Multi-layer perceptron
-1. **[EPMDA]** Dong Y, Sun Y, Qin C et al. EPMDA: Edge Perturbation Based Method for miRNA-Disease Association Prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020;17(6):2170-2175. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8827911 "Click") 
+7. **[preMLI]** Yu X, Jiang L, Jin S et al. preMLI: a pre-trained method to uncover microRNA–lncRNA potential interactions, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab470/6446267?login=false "Click") [**[Code]**](https://github.com/BioSequenceAnalysis/preMLI "Click")
 
-2. **[MLRDFM]** Ding Y, Lei X, Liao B et al. MLRDFM: a multi-view Laplacian regularized DeepFM model for predicting miRNA-disease associations, Briefings in Bioinformatics 2022;23(3). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/3/bbac079/6552270?login=false "Click") [**[Code]**](https://github.com/XYDBCS/MLRDFM "Click") 
-
-### Convolutional neural network 
-1. **[CNNDMP]** Xuan P, Dong Y, Guo Y et al. Dual Convolutional Neural Network Based Method for Predicting Disease-Related miRNAs, International journal of molecular sciences 2018;19(12):3732. [**[Download]**](https://www.mdpi.com/1422-0067/19/12/3732 "Click") 
-
-2. **[CNNMDA]** Xuan P, Sun H, Wang X et al. Inferring the Disease-Associated miRNAs Based on Network Representation Learning and Convolutional Neural Networks, International journal of molecular sciences 2019;20(15):3648. [**[Download]**](https://www.mdpi.com/1422-0067/20/15/3648 "Click") 
-
-3. **[DNRLCNN]** Zhong J, Zhou W, Kang J et al. DNRLCNN: A CNN Framework for Identifying MiRNA–Disease Associations Using Latent Feature Matrix Extraction with Positive Samples, Interdisciplinary Sciences: Computational Life Sciences 2022;14(2):607-622. [**[Download]**](https://link.springer.com/article/10.1007/s12539-022-00509-z "Click") 
-
-### Other deep learning methonds
-1. **[CEMDA]** Liu B, Zhu X, Zhang L et al. Combined embedding model for MiRNA-disease association prediction, BMC Bioinformatics 2021;22(1):161. [**[Download]**](https://link.springer.com/article/10.1186/s12859-021-04273-7 "Click") [**[Code]**](https://github.com/liubailong/CEMDA "Click")
-
-2. **[GMDA]** Xuan P, Wang D, Cui H et al. Integration of pairwise neighbor topologies and miRNA family and cluster attributes for miRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab428/6385813?login=false "Click")
-
-## Graph neural models for predicting MDAs 
-### graph convolutional network
-1. **[HGCNMDA(1)]** Xuan P, Pan S, Zhang T et al. Graph Convolutional Network and Convolutional Neural Network Based Method for Predicting lncRNA-Disease Associations, Cells 2019;8(9). [**[Download]**](https://www.mdpi.com/2073-4409/8/9/1012 "Click") 
-
-2. **[Zhu’s method]** Wu Q-W, Xia J-F, Ni J-C et al. GAERF: predicting lncRNA-disease associations by graph auto-encoder and random forest, Briefings in Bioinformatics 2021;22(5). [**[Download]**](https://academic.oup.com/bib/article-abstract/22/5/bbaa391/6067881 "Click") 
-
-3. **[NIMCGCN]** Wu QW, Cao RF, Xia J et al. Extra Trees Method for Predicting LncRNA-Disease Association Based on Multi-layer Graph Embedding Aggregation, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9540266 "Click") [**[Code]**](https://github.com/QingwWu/MLGCNET "Click")
-
-4. **[FCGCNMDA]** Sheng N, Huang L, Wang Y et al. Sheng N, Huang L, Wang Y et al. Multi-channel graph attention autoencoders for disease-related lncRNAs prediction, Briefings in Bioinformatics 2022;23(2). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/2/bbab604/6519791 "Click") [**[Code]**](https://github.com/sheng-n/MGATE "Click")
-
-5. **[MMGCN]** Lan W, Wu X, Chen Q et al. GANLDA: Graph attention network for lncRNA-disease associations prediction, Neurocomputing 2022;469:384-393. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S0925231221011012 "Click") 
-
-6. **[GSCENet]** Xuan P, Zhan L, Cui H et al. Graph Triple-Attention Network for Disease-related LncRNA Prediction, IEEE Journal of Biomedical and Health Informatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9625721 "Click") 
-
-7. **[MDA-GCNFTD]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-8. **[MINIMDA]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-9. **[HGCNMDA(2)]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-10. **[MuCoMid]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-11. **[SGNNMD]** Silva ABOV, Spinosa EJ. Graph Convolutional Auto-Encoders for predicting novel lncRNA-Disease associations, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2021:1-1. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9395216 "Click") 
-
-### graph attention network
-1. **[HGATMDA]** Wu X, Lan W, Chen Q et al. Inferring LncRNA-disease associations based on graph autoencoder matrix completion, Computational Biology and Chemistry 2020;87:107282. [**[Download]**](https://www.sciencedirect.com/science/article/abs/pii/S1476927119310114 "Click") 
-
-2. **[GRPAMDA]** Fan Y, Chen M, Pan X. GCRFLDA: scoring lncRNA-disease associations using graph convolution matrix completion with conditional random field, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab361/6363052?login=false "Click") [**[Code]**](https://github.com/jademyC1221/GCRFLDA "Click")
-
-3. **[HGANMDA]** Zhao X, Zhao X, Yin M. Heterogeneous graph attention network based on meta-paths for lncRNA–disease association prediction, Briefings in Bioinformatics 2021;23(1). [**[Download]**](https://academic.oup.com/bib/article-abstract/23/1/bbab407/6377515?login=false "Click") 
-
-4. **[MDPBMP]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-### graph autoencoder
-1. **[GCAEMDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-2. **[NIMGSA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-3. **[GAEMDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-4. **[AGAEMD]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-5. **[VGAE-MDA]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
-
-6. **[VGAMD]** Shi Z, Zhang H, Jin C et al. A representation learning model based on variational inference and graph autoencoder for predicting lncRNA-disease associations, BMC Bioinformatics 2021;22(1):136. [**[Download]**](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04073-z "Click") [**[Code]**](https://github.com/zhanglabNKU/VGAELDA "Click")
+## A Summary of Methodology Details for predicting lncRNA-miRNA interactions
+| Methods  |Data types |Description | Code | 
+|:------------------:|:-----:|:--------------: |:-----:|
+|EPLMI | lncRNA-miRNA interaction, lncRNA/miRNA expression profile, lncRNA/miRNA sequence, lncRNA putative functional annotations, miRNAs-target genes interaction| A graph-based method based on two-way diffusion that uses expression profile similarity, sequence similarity, and functional similarity of lncRNA and miRNA| https://github.com/TYLH/EPLMI|
+|GCLMI |same as EPLMI |An end-to-end prediction model using graph convolution autoencoder to infer lncRNA-miRNA interactions | NA|
+| LNRLMI|same as EPLMI |An approach based on linear neighbor representation for prediction, which uses known interaction and expression profile similarity to construct a bipartite network |NA |
+|LMNLMI |same as EPLMI |A framework based on network fusion technique and matrix completion technique for predicting interaction |NA |
+|GEEL-PI, GEEL-FI |lncRNA-miRNA interaction, lncRNA/miRNA sequence |A computational method based on graph embedding learning and ensemble learning  | NA|
+| GNMFLMI|lncRNA-miRNA interaction, lncRNA/miRNA expression profile | A graph regularized nonnegative matrix factorization for inferring interactions|https://github.com/haichengyi/GNMFLMI |
+|LMFNRLMI |same as EPLMI | A method based on logistic matrix factorization with neighborhood regularized for discovering interactions|NA |
+|LMI-DForest |lncRNA-miRNA interaction, lncRNA/miRNA expression profile |A machine learning approach that combines deep forest and autoencoder |NA |
+|SNFHGILMI |lncRNA-miRNA interaction, lncRNA/miRNA expression profile |A heterogeneous graph inference method based on similarity network fusion to predict interactions |https://github.com/cj-DaSE/SNFHGILMI-master |
+| LMI-INGI|same as EPLMI |A semi-supervised approach based on interactome work and graphlet interaction for prediction | https://github.com/Liu-Lab-Lnu/LMI-INGI|
+|NDALMA |lncRNA-miRNA interaction, lncRNA/miRNA sequence | A model based on network distance analysis that integrates sequence similarity and GIPK similarity of lncRNA and miRNA|https://github.com/Liu-Lab-Lnu/NDALMA |
+|LncMirNet |lncRNA-miRNA interaction, lncRNA/miRNA sequence | A method based on CNN, which uses lncRNA and miRNA sequence features, including k-mer, CTD, Doc2vec, and Role2vec features|https://github.com/abcair/LncMirNet |
+|CIRNN |plant lncRNA-miRNA interaction, plant lncRNA and miRNA sequence |An ensemble deep-learning model based on CNN and IndRNN, which adopts plant lncRNA and miRNA sequence | NA|
+| PmliPred|same as CIRNN |A framework based on deep learning model (CNN and BiGRU) and shallow machine learning model (RF) that uses sequence features and manually extracted features, involving k-mer frequency, GC content, number of base pairs, and minimum free energy. The hybridized based on fuzzy decision for prediction |https://github.com/kangzhai/PmliPred |
+|PmliPEMG | same as CIRNN| An ensemble deep learning model based on multi-level information enhancement (CNN and LSTM with attention mechanism) and greedy fuzzy decision for plant lncRNA-miRNA interaction prediction|https://github.com/kangzhai/PmliPEMG |
+|Kang’s method |same as CIRNN |An adaptively prunes the base models based on dual-path parallel ensemble method to meet the challenge of cross-species prediction. it uses PmliPEMG as the base model |https://github.com/kangzhai/DPEP |
+|MD-MLI | same as CIRNN|A hierarchical deep learning framework that integrates capsule network, an IndRNN with attention mechanism and Bi-LSTM |NA |
+|preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |[NA](https://github.com/BioSequenceAnalysis/preMLI) |
 
 ## Welcome to contribute
+```
+@article{SN_LMI,
+  title={Databases, tools, and computational methods for lncRNA-miRNA interaction prediction: a survey},
+  author={Nan Sheng, Lan Huang, Ling Gao, Xuping Xie, Yangkun Cao, Yan Wang},
+  journal={Genomics, Proteomics & Bioinformatics (Awaiting submissions)},
+  year={2022},
+  publisher={ELSEVIER}
+}
+```
 If you would like to help contribute this list, please feel free to contact me by email:
 
 * Email: shengnan21@mails.jlu.edu.cn
