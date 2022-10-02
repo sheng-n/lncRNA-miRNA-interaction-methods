@@ -22,23 +22,26 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Overview
 * We are presented databases and tools related to animal and plant lncRNA-miRNA interactions prediction, covering lncRNA-miRNA interactions data, lncRNA- and miRNA-related data (such as expression profiles, sequences, and functions). These databases are widely used in computational methods and are still being updated and accessed.. 
 * We reviewed 18 computational methods for lncRNA-miRNA interactions prediction that are divided into two groups, including network-based methods and sequence-based methods, as shown below figure 1.
-![image](https://user-images.githubusercontent.com/95516781/192542651-05f27b06-f301-4e59-84fc-1a34cf3ab3d9.png)
+![image](https://user-images.githubusercontent.com/95516781/193453306-4aadb7c0-d6f6-4b2a-8eb6-7273abd9ba52.png)
+
 
 
 Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction.
 
 ## Data resources
-### miRNA-disease association data resources
 | Database  |Latest version |Description  | URL | 
-|:------------------:|:-----:|:---------------: |:-----|
-|HMDD v3.2 | Documents 19,166 lncRNAs, 529 diseases and 10,564 association in Homo sapiens, Mus musculus, Rattus norvegicus and Gallus gallus  | http://www.cuilab.cn/hmdd|
-|dbDEMC 3.0    |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |https://www.biosino.org/dbDEMC|
-|miR2Disease    |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://www.mir2disease.org/|
-|miRCancer   |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://mircancer.ecu.edu/ |
-|miRwayD   |Collects 2,659 lncRNAs, 216 cancers and 9,254 associations in human     |http://www.mirway.iitkgp.ac.in/ |
-|MNDR v4.0           |Records 39,880 lncRNA, over 1,600 diseases and 295,834 associations in 11 mammals |http://www.rnadisease.org/ |
-
-
+|:------------------:|:-----:|:--------------: |:-----:|
+|lncRNASNP | lncRNASNP2 | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
+|LNCipedia |LNCipedia (v5.2) |It provides lncRNA sequence and annotation. The current release contains 127802 transcripts and 56946 genes | https://lncipedia.org/|
+|miRBase |miRbase (v22.1) |It records published miRNA sequences and annotation, involving 38589 miRNAs entries | https://mirbase.org/|
+| NONCODE|NONCODE (v6.0) |An integrated knowledge database dedicated to the ncRNAs database. It collects lncRNA expression profiles and putative functional annotations of lncRNA | http://www.noncode.org/|
+|microRNA.org | NA|It provides miRNA target predictions and expression profiles | http://www.microrna.org|
+| miRTarBase|Update 2022 |It presents experimentally validated miRNA-target interactions |https://miRTarBase.cuhk.edu.cn/ |
+|CANTATAdb |CANTATAdb (2.0) |It records 239631 lncRNAs predicted in 36 plant species and 3 algae, and presents lncRNA sequences, genomic locations |http://yeti.amu.edu.pl/CANTATA/ |
+|PMRD |Updated 2014 |A plant miRNA database, including miRNA sequences and their target genes, secondary, dimension structure, expression profiling, etc. |http://bioinformatics.cau.edu.cn/PMRD/ |
+| GreeNC|GreeNC (v2.0) |A plant lncRNAs database, recording lncRNA sequences, genomic coordinates, coding potential and folding energy | http://greenc.sequentiabiotech.com/wiki2/Main_Page|
+|RNAhybrid | RNAhybrid 2.1.2|It is a tool for finding the minimum free energy hybridization of a long and a short RNA, and is primarily meant as a means for microRNA target prediction |https://bibiserv.cebitec.uni-bielefeld.de/rnahybrid |
+| psRNATarget|psRNATarget (v2) |It is a plant small RNA target analysis server, and used as the miRNA-lncRNA interaction prediction tool |https://www.zhaolab.org/psRNATarget/ |
 
 ## Deep learning models for predicting MDAs
 ### Autoencoder
