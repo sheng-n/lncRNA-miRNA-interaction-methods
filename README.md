@@ -1,5 +1,5 @@
 # Databases, tools, and computational methods for lncRNA-miRNA interaction prediction: a survey 
-![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n/lncRNA-miRNA-interaction-methods)
+![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-miRNA-interaction-methods)
 
 ## What is lncRNA and miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) and miRNAS are a major class of important ncRNAs with the lengths more than 200 nucleotides and the lengths about 20–23 nt. 
