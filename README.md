@@ -78,7 +78,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 
 ## A Summary of Methodology Details for predicting lncRNA-miRNA interactions
 | Methods  |Data types |Description | Code | 
-|:------------------:|:-----:|:--------------: |:-----:|
+|:----------:|:-----:|:------------------: |:------:|
 |EPLMI | lncRNA-miRNA interaction, lncRNA/miRNA expression profile, lncRNA/miRNA sequence, lncRNA putative functional annotations, miRNAs-target genes interaction| A graph-based method based on two-way diffusion that uses expression profile similarity, sequence similarity, and functional similarity of lncRNA and miRNA| https://github.com/TYLH/EPLMI|
 |GCLMI |same as EPLMI |An end-to-end prediction model using graph convolution autoencoder to infer lncRNA-miRNA interactions | NA|
 | LNRLMI|same as EPLMI |An approach based on linear neighbor representation for prediction, which uses known interaction and expression profile similarity to construct a bipartite network |NA |
