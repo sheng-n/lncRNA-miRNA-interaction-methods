@@ -24,7 +24,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 
 ## Databases and tools
 | Database  |Latest version |Description  | URL | 
-|:------------------:|:-----:|:--------------: |:-----:|
+|:-------------:|:-----:|:--------: |:-----:|
 |lncRNASNP | lncRNASNP2 | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
 |LNCipedia |LNCipedia (v5.2) |It provides lncRNA sequence and annotation. The current release contains 127802 transcripts and 56946 genes | https://lncipedia.org/|
 |miRBase |miRbase (v22.1) |It records published miRNA sequences and annotation, involving 38589 miRNAs entries | https://mirbase.org/|
