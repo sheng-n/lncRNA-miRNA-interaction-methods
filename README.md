@@ -24,7 +24,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 
 ## Databases and tools
 | Database  |Latest version |Description  | URL | 
-|:-------------:|:-----:|:--------: |:-----:|
+|:-------------:|:------:|:-------------: |:----------:|
 |lncRNASNP | lncRNASNP2 | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
 |LNCipedia |LNCipedia (v5.2) |It provides lncRNA sequence and annotation. The current release contains 127802 transcripts and 56946 genes | https://lncipedia.org/|
 |miRBase |miRbase (v22.1) |It records published miRNA sequences and annotation, involving 38589 miRNAs entries | https://mirbase.org/|
@@ -78,9 +78,9 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 
 ## A Summary of Methodology Details for predicting lncRNA-miRNA interactions
 | Methods  |Data types |Description | Code | 
-|:----------:|:-----:|:------------------: |:------:|
+|:----------------:|:--------------------------------:|:----------------------------------------------: |:-----------------:|
 |EPLMI | lncRNA-miRNA interaction, lncRNA/miRNA expression profile, lncRNA/miRNA sequence, lncRNA putative functional annotations, miRNAs-target genes interaction| A graph-based method based on two-way diffusion that uses expression profile similarity, sequence similarity, and functional similarity of lncRNA and miRNA| https://github.com/TYLH/EPLMI|
-|GCLMI |same as EPLMI |An end-to-end prediction model using graph convolution autoencoder to infer lncRNA-miRNA interactions | NA|
+|GCLMI |same as EPLMI |An end---to-end prediction model using graph convolution autoencoder to infer lncRNA-miRNA interactions | NA|
 | LNRLMI|same as EPLMI |An approach based on linear neighbor representation for prediction, which uses known interaction and expression profile similarity to construct a bipartite network |NA |
 |LMNLMI |same as EPLMI |A framework based on network fusion technique and matrix completion technique for predicting interaction |NA |
 |GEEL-PI, GEEL-FI |lncRNA-miRNA interaction, lncRNA/miRNA sequence |A computational method based on graph embedding learning and ensemble learning  | NA|
