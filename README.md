@@ -106,7 +106,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
   author={Nan Sheng, Lan Huang, Ling Gao, Xuping Xie, Yangkun Cao, Yan Wang},
   journal={Briefings in Bioinformatics (Awaiting submissions)},
   year={2022},
-  publisher={ELSEVIER}
+  publisher={OXFORD}
 }
 ```
 If you would like to help contribute this list, please feel free to contact me by email:
