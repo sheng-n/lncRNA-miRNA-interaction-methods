@@ -1,5 +1,5 @@
 # 🏎💨lncRNA-miRNA interaction prediction methods <a href='https:/lncRNA-miRNA-interaction-methods.org'></a>
-# Databases, tools, and computational methods for lncRNA-miRNA interaction prediction: a survey 
+# A survey of computational methods and databases for lncRNA-miRNA interaction prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-miRNA-interaction-methods)
 
 ## What is lncRNA and miRNA?
@@ -102,11 +102,11 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 ## Welcome to contribute
 ```
 @article{SN_LMI,
-  title={Databases, tools, and computational methods for lncRNA-miRNA interaction prediction: a survey},
+  title={A survey of computational methods and databases for lncRNA-miRNA interaction prediction},
   author={Nan Sheng, Lan Huang, Ling Gao, Yangkun Cao, Xuping Xie, Yan Wang},
-  journal={Briefings in Bioinformatics (Awaiting Reviewer Scores)},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics (Under review)},
   year={2022},
-  publisher={OXFORD}
+  publisher={IEEE}
 }
 ```
 If you would like to help contribute this list, please feel free to contact me by email:
