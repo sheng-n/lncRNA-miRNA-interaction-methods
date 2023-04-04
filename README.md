@@ -17,9 +17,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Overview
 * We are presented databases and tools related to animal and plant lncRNA-miRNA interactions prediction, covering lncRNA-miRNA interactions data, lncRNA- and miRNA-related data (such as expression profiles, sequences, and functions). These databases are widely used in computational methods and are still being updated and accessed.. 
 * We reviewed 18 computational methods for lncRNA-miRNA interactions prediction that are divided into two groups, including network-based methods and sequence-based methods, as shown below figure 1.
-![image](https://user-images.githubusercontent.com/95516781/193453306-4aadb7c0-d6f6-4b2a-8eb6-7273abd9ba52.png)
-
-
+![Computational methods](https://user-images.githubusercontent.com/95516781/229693532-01f0bc55-ca37-44ba-a2dd-9f2b3e2d5677.png)
 
 Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction.
 
