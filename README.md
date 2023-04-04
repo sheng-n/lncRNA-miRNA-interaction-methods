@@ -26,11 +26,10 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 ## Databases and tools
 | Database  |Latest version |Description  | URL | 
 |:-------------:|:------:|:-------------: |:----------:|
-|lncRNASNP | lncRNASNP2 | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
+|lncRNASNP | lncRNASNP(v3) | It contains SNPs in lncRNAs, SNP effects on lncRNA structure, a mutation in lncRNAs and lncRNA-miRNA interactions|http://bioinfo.life.hust.edu.cn/lncRNASNP#!/|
 |LNCipedia |LNCipedia (v5.2) |It provides lncRNA sequence and annotation. The current release contains 127802 transcripts and 56946 genes | https://lncipedia.org/|
 |miRBase |miRbase (v22.1) |It records published miRNA sequences and annotation, involving 38589 miRNAs entries | https://mirbase.org/|
 | NONCODE|NONCODE (v6.0) |An integrated knowledge database dedicated to the ncRNAs database. It collects lncRNA expression profiles and putative functional annotations of lncRNA | http://www.noncode.org/|
-|microRNA.org | NA|It provides miRNA target predictions and expression profiles | http://www.microrna.org|
 | miRTarBase|Update 2022 |It presents experimentally validated miRNA-target interactions |https://miRTarBase.cuhk.edu.cn/ |
 |CANTATAdb |CANTATAdb (2.0) |It records 239631 lncRNAs predicted in 36 plant species and 3 algae, and presents lncRNA sequences, genomic locations |http://yeti.amu.edu.pl/CANTATA/ |
 |PMRD |Updated 2014 |A plant miRNA database, including miRNA sequences and their target genes, secondary, dimension structure, expression profiling, etc. |http://bioinformatics.cau.edu.cn/PMRD/ |
@@ -82,15 +81,17 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 |:----------------:|:--------------------------------:|:----------------------------------------------: |:-----------------:|
 |EPLMI | lncRNA-miRNA interaction, lncRNA/miRNA expression profile, lncRNA/miRNA sequence, lncRNA putative functional annotations, miRNAs-target genes interaction| A graph-based method based on two-way diffusion that uses expression profile similarity, sequence similarity, and functional similarity of lncRNA and miRNA| https://github.com/TYLH/EPLMI|
 |GCLMI |same as EPLMI |An end---to-end prediction model using graph convolution autoencoder to infer lncRNA-miRNA interactions | NA|
-| LNRLMI|same as EPLMI |An approach based on linear neighbor representation for prediction, which uses known interaction and expression profile similarity to construct a bipartite network |NA |
+|SLNPM |LMI, lncRNA/miRNA expression profile, lncRNA/miRNA sequence |A sequence-derived linear neighborhood propagation method based on similarity integration to predict LMIs | NA|
+|LNRLMI|same as EPLMI |An approach based on linear neighbor representation for prediction, which uses known interaction and expression profile similarity to construct a bipartite network |NA |
 |LMNLMI |same as EPLMI |A framework based on network fusion technique and matrix completion technique for predicting interaction |NA |
 |GEEL-PI, GEEL-FI |lncRNA-miRNA interaction, lncRNA/miRNA sequence |A computational method based on graph embedding learning and ensemble learning  | NA|
-| GNMFLMI|lncRNA-miRNA interaction, lncRNA/miRNA expression profile | A graph regularized nonnegative matrix factorization for inferring interactions|https://github.com/haichengyi/GNMFLMI |
+|GNMFLMI|lncRNA-miRNA interaction, lncRNA/miRNA expression profile | A graph regularized nonnegative matrix factorization for inferring interactions|https://github.com/haichengyi/GNMFLMI |
 |LMFNRLMI |same as EPLMI | A method based on logistic matrix factorization with neighborhood regularized for discovering interactions|NA |
 |LMI-DForest |lncRNA-miRNA interaction, lncRNA/miRNA expression profile |A machine learning approach that combines deep forest and autoencoder |NA |
 |SNFHGILMI |lncRNA-miRNA interaction, lncRNA/miRNA expression profile |A heterogeneous graph inference method based on similarity network fusion to predict interactions |https://github.com/cj-DaSE/SNFHGILMI-master |
-| LMI-INGI|same as EPLMI |A semi-supervised approach based on interactome work and graphlet interaction for prediction | https://github.com/Liu-Lab-Lnu/LMI-INGI|
+|LMI-INGI|same as EPLMI |A semi-supervised approach based on interactome work and graphlet interaction for prediction | https://github.com/Liu-Lab-Lnu/LMI-INGI|
 |NDALMA |lncRNA-miRNA interaction, lncRNA/miRNA sequence | A model based on network distance analysis that integrates sequence similarity and GIPK similarity of lncRNA and miRNA|https://github.com/Liu-Lab-Lnu/NDALMA |
+|GCNCRF |LMI, lncRNA/miRNA sequence | A method based on graph convolutional neural network and conditional random filed to infer potential interactions|https://github.com/zhaoqi106/GCNCRF|
 |LncMirNet |lncRNA-miRNA interaction, lncRNA/miRNA sequence | A method based on CNN, which uses lncRNA and miRNA sequence features, including k-mer, CTD, Doc2vec, and Role2vec features|https://github.com/abcair/LncMirNet |
 |CIRNN |plant lncRNA-miRNA interaction, plant lncRNA and miRNA sequence |An ensemble deep-learning model based on CNN and IndRNN, which adopts plant lncRNA and miRNA sequence | NA|
 | PmliPred|same as CIRNN |A framework based on deep learning model (CNN and BiGRU) and shallow machine learning model (RF) that uses sequence features and manually extracted features, involving k-mer frequency, GC content, number of base pairs, and minimum free energy. The hybridized based on fuzzy decision for prediction |https://github.com/kangzhai/PmliPred |
