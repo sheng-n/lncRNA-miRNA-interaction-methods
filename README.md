@@ -43,23 +43,27 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 
 2. **[GCLMI]** Huang Y-A, Huang Z-A, You Z-H et al. Predicting lncRNA-miRNA Interaction via Graph Convolution Auto-Encoder, Frontiers in genetics 2019;10. [**[Download]**](https://www.frontiersin.org/articles/10.3389/fgene.2019.00758/full "Click")
 
-3. **[LNRLMI]** Wong L, Huang Y-A, You Z-H et al. LNRLMI: Linear neighbour representation for predicting lncRNA-miRNA interactions, Journal of Cellular and Molecular Medicine 2020;24(1):79-87. [**[Download]**](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.14583 "Click") 
+3. **[SLNPM]** Zhang W, Tang G, Zhou S et al. LncRNA-miRNA interaction prediction through sequence-derived linear neighborhood propagation method with information combination, BMC Genomics 2019;20(11):946. [**[Download]**](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6284-y "Click")
 
-4. **[LMNLMI]** Hu P, Huang YA, Chan KCC et al. Learning Multimodal Networks From Heterogeneous Data for Prediction of lncRNA–miRNA Interactions, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020;17(5):1516-1524. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8918443 "Click")
+4. **[LNRLMI]** Wong L, Huang Y-A, You Z-H et al. LNRLMI: Linear neighbour representation for predicting lncRNA-miRNA interactions, Journal of Cellular and Molecular Medicine 2020;24(1):79-87. [**[Download]**](https://onlinelibrary.wiley.com/doi/full/10.1111/jcmm.14583 "Click") 
 
-5. **[GEEL-PI, GEEL-FI]** Zhao C, Qiu Y, Zhou S et al. Graph embedding ensemble methods based on the heterogeneous network for lncRNA-miRNA interaction prediction, BMC Genomics 2020;21(13):867. [**[Download]**](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07238-x "Click") 
+5. **[LMNLMI]** Hu P, Huang YA, Chan KCC et al. Learning Multimodal Networks From Heterogeneous Data for Prediction of lncRNA–miRNA Interactions, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2020;17(5):1516-1524. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/8918443 "Click")
 
-6. **[GNMFLMI]** Wang MN, You ZH, Li LP et al. GNMFLMI: Graph Regularized Nonnegative Matrix Factorization for Predicting LncRNA-MiRNA Interactions, IEEE Access 2020;8:37578-37588. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9001074 "Click") [**[Code]**](https://github.com/haichengyi/GNMFLMI "Click") 
+6. **[GEEL-PI, GEEL-FI]** Zhao C, Qiu Y, Zhou S et al. Graph embedding ensemble methods based on the heterogeneous network for lncRNA-miRNA interaction prediction, BMC Genomics 2020;21(13):867. [**[Download]**](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07238-x "Click") 
 
-7. **[LMFNRLMI]** Liu H, Ren G, Chen H et al. Predicting lncRNA–miRNA interactions based on logistic matrix factorization with neighborhood regularized, Knowledge-Based Systems 2020;191:105261. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0950705119305684 "Click") 
+7. **[GNMFLMI]** Wang MN, You ZH, Li LP et al. GNMFLMI: Graph Regularized Nonnegative Matrix Factorization for Predicting LncRNA-MiRNA Interactions, IEEE Access 2020;8:37578-37588. [**[Download]**](https://ieeexplore.ieee.org/abstract/document/9001074 "Click") [**[Code]**](https://github.com/haichengyi/GNMFLMI "Click") 
 
-8. **[LMI-DForest]** Wang W, Guan X, Khan MT et al. LMI-DForest: A deep forest model towards the prediction of lncRNA-miRNA interactions, Computational Biology and Chemistry 2020;89:107406. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S1476927120308021 "Click") 
+8. **[LMFNRLMI]** Liu H, Ren G, Chen H et al. Predicting lncRNA–miRNA interactions based on logistic matrix factorization with neighborhood regularized, Knowledge-Based Systems 2020;191:105261. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0950705119305684 "Click") 
 
-9. **[SNFHGILMI]** Fan Y, Cui J, Zhu Q. Heterogeneous graph inference based on similarity network fusion for predicting lncRNA–miRNA interaction, RSC advances 2020;10(20):11634-11642. [**[Download]**](https://pubs.rsc.org/en/content/articlehtml/2020/ra/c9ra11043g "Click") [**[Code]**](https://github.com/cj-DaSE/SNFHGILMI-master "Click") 
+9. **[LMI-DForest]** Wang W, Guan X, Khan MT et al. LMI-DForest: A deep forest model towards the prediction of lncRNA-miRNA interactions, Computational Biology and Chemistry 2020;89:107406. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S1476927120308021 "Click") 
 
-10. **[LMI-INGI]** Zhang L, Liu T, Chen H et al. Predicting lncRNA–miRNA interactions based on interactome network and graphlet interaction, Genomics 2021;113(3):874-880. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0888754321000537 "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/LMI-INGI "Click") 
+10. **[SNFHGILMI]** Fan Y, Cui J, Zhu Q. Heterogeneous graph inference based on similarity network fusion for predicting lncRNA–miRNA interaction, RSC advances 2020;10(20):11634-11642. [**[Download]**](https://pubs.rsc.org/en/content/articlehtml/2020/ra/c9ra11043g "Click") [**[Code]**](https://github.com/cj-DaSE/SNFHGILMI-master "Click") 
 
-11. **[NDALMA]** Zhang L, Yang P, Feng H et al. Using Network Distance Analysis to Predict lncRNA–miRNA Interactions, Interdisciplinary Sciences: Computational Life Sciences 2021;13(3):535-545. [**[Download]**](https://link.springer.com/article/10.1007/s12539-021-00458-z "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/NDALMA "Click") 
+11. **[LMI-INGI]** Zhang L, Liu T, Chen H et al. Predicting lncRNA–miRNA interactions based on interactome network and graphlet interaction, Genomics 2021;113(3):874-880. [**[Download]**](https://www.sciencedirect.com/science/article/pii/S0888754321000537 "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/LMI-INGI "Click") 
+
+12. **[NDALMA]** Zhang L, Yang P, Feng H et al. Using Network Distance Analysis to Predict lncRNA–miRNA Interactions, Interdisciplinary Sciences: Computational Life Sciences 2021;13(3):535-545. [**[Download]**](https://link.springer.com/article/10.1007/s12539-021-00458-z "Click") [**[Code]**](https://github.com/Liu-Lab-Lnu/NDALMA "Click") 
+
+13. **[GCNCRF]** Wang W, Zhang L, Sun J et al. Predicting the potential human lncRNACmiRNA interactions based on graph convolution network with conditional random field, Briefings in Bioinformatics 2022. [**[Download]**](https://academic.oup.com/bib/article/23/6/bbac463/6775599?login=true "Click") [**[Code]**](https://github.com/zhaoqi106/GCNCRF "Click") 
 
 ### Sequence-based methods
 1. **[LncMirNet]** Yang S, Wang Y, Lin Y et al. LncMirNet: Predicting LncRNA–miRNA Interaction Based on Deep Learning of Ribonucleic Acid Sequences, Molecules 2020;25(19):4372. [**[Download]**](https://www.mdpi.com/1420-3049/25/19/4372 "Click") [**[Code]**](https://github.com/abcair/LncMirNet "Click") 
@@ -98,7 +102,7 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 |PmliPEMG | same as CIRNN| An ensemble deep learning model based on multi-level information enhancement (CNN and LSTM with attention mechanism) and greedy fuzzy decision for plant lncRNA-miRNA interaction prediction|https://github.com/kangzhai/PmliPEMG |
 |Kang’s method |same as CIRNN |An adaptively prunes the base models based on dual-path parallel ensemble method to meet the challenge of cross-species prediction. it uses PmliPEMG as the base model |https://github.com/kangzhai/DPEP |
 |MD-MLI | same as CIRNN|A hierarchical deep learning framework that integrates capsule network, an IndRNN with attention mechanism and Bi-LSTM |NA |
-|preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |(https://github.com/BioSequenceAnalysis/preMLI) |
+|preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |https://github.com/BioSequenceAnalysis/preMLI|
 
 ## Welcome to contribute
 ```
