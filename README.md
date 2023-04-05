@@ -2,6 +2,8 @@
 # A survey of computational methods and databases for lncRNA-miRNA interaction prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-miRNA-interaction-methods)
 
+## Paper [**[Paper link]**](https://doi.org/10.1109/TCBB.2023.3264254 "Click") 
+
 ## What is lncRNA and miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) and miRNAS are a major class of important ncRNAs with the lengths more than 200 nucleotides and the lengths about 20–23 nt. 
 
@@ -102,16 +104,10 @@ Fig 1: Taxonomy of computational methods for lncRNA-miRNA interaction prediction
 |MD-MLI | same as CIRNN|A hierarchical deep learning framework that integrates capsule network, an IndRNN with attention mechanism and Bi-LSTM |NA |
 |preMLI | same as CIRNN|A model based on rna2vec pre-training and deep feature mining mechanism (CNN, BI-GRU, and attention layer) |https://github.com/BioSequenceAnalysis/preMLI|
 
+## Cite
+Sheng N, Huang L, Gao L et al. A survey of computational methods and databases for lncRNA-miRNA interaction prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2023; DOI: 10.1109/TCBB.2023.3264254.
+
 ## Welcome to contribute
-```
-@article{SN_LMI,
-  title={A survey of computational methods and databases for lncRNA-miRNA interaction prediction},
-  author={Nan Sheng, Lan Huang, Ling Gao, Yangkun Cao, Xuping Xie, Yan Wang},
-  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics (Accept)},
-  year={2022},
-  publisher={IEEE}
-}
-```
 If you would like to help contribute this list, please feel free to contact me by email:
 
 * Email: shengnan21@mails.jlu.edu.cn
