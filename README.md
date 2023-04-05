@@ -14,6 +14,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
   - [Network-based methods](#Network-based-methods)
   - [Sequence-based methods](#Sequence-based-methods)
 * [A Summary of Methodology Details for predicting lncRNA-miRNA interactions](#A-Summary-of-Methodology-Details-for-predicting-lncRNA-miRNA-interactions) 
+* [Cite](#Cite)
 * [ Welcome to contribute](#Welcome-to-contribute) 
 
 ## Overview
