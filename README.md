@@ -2,6 +2,12 @@
 # A survey of computational methods and databases for lncRNA-miRNA interaction prediction
 ![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-miRNA-interaction-methods)
 
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/sheng-n.lncRNA-miRNA-interaction-methods/count.svg" />
+</p>
+<a href="https://info.flagcounter.com/haJo"><img src="https://s11.flagcounter.com/count2/haJo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_6/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
 ## Paper [**[Paper link]**](https://doi.org/10.1109/TCBB.2023.3264254 "Click") 
 
 ## What is lncRNA and miRNA?
