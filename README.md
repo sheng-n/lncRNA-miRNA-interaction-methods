@@ -8,6 +8,8 @@
 </p>
 
 ## Paper [**[Paper link]**](https://doi.org/10.1109/TCBB.2023.3264254 "Click") 
+## Cite
+Sheng N, Huang L, Gao L et al. A survey of computational methods and databases for lncRNA-miRNA interaction prediction, IEEE/ACM Transactions on Computational Biology and Bioinformatics 2023; DOI: 10.1109/TCBB.2023.3264254.
 
 ## What is lncRNA and miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. Long non-coding RNAs (lncRNAs) and miRNAS are a major class of important ncRNAs with the lengths more than 200 nucleotides and the lengths about 20–23 nt. 
