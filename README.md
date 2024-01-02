@@ -1,6 +1,6 @@
 # 🏎💨lncRNA-miRNA interaction prediction methods <a href='https:/lncRNA-miRNA-interaction-methods.org'></a>
 # A survey of computational methods and databases for lncRNA-miRNA interaction prediction
-![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork) ![visitors](https://visitor-badge.glitch.me/badge?page_id=sheng-n.lncRNA-miRNA-interaction-methods)
+![GitHub stars](https://img.shields.io/github/stars/sheng-n/lncRNA-miRNA-interaction-methods?color=red) ![GitHub forks](https://img.shields.io/github/forks/sheng-n/lncRNA-miRNA-interaction-methods?color=green&label=Fork)
 
 <p align="center"> 
   Visitor count<br>
